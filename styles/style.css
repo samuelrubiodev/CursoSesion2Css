@@ -1,0 +1,26 @@
+header {
+    background-color: #FE5E01;
+    text-align: center;
+}
+
+#contenido_central nav ul li a{
+    color: #FE5E01;   
+}
+
+#contenido_resenyas h2 {
+    text-align: center;
+}
+
+#contenido_resenyas article p a{
+    color: #FE5E01;
+}
+
+#contenido_resenyas article img {
+    margin-left: 15%;
+    float: left;
+    margin-right: 5%;
+}
+
+#contenido_resenyas article p {
+    display: flex;
+}
