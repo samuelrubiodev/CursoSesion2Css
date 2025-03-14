@@ -3,24 +3,34 @@ header {
     text-align: center;
 }
 
-#contenido_central nav ul li a{
-    color: #FE5E01;   
-}
-
-#contenido_resenyas h2 {
-    text-align: center;
-}
-
-#contenido_resenyas article p a{
+ul, li, a {
     color: #FE5E01;
 }
 
-#contenido_resenyas article img {
+#contenido_resenyas {
     margin-left: 15%;
+    float: left;
+}
+
+#contenido_resenyas h2{
+    text-align: center;
+}
+
+#contenido_resenyas article img {
     float: left;
     margin-right: 5%;
 }
 
-#contenido_resenyas article p {
+#seccion-imagen {
     display: flex;
+    flex-direction: column;
+}
+
+#seccion-descripcion {
+    margin-left: 5%;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
 }
